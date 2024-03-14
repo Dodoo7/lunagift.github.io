@@ -1,0 +1,236 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #EED5C2;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.bottom_label__container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.title__container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.title__label {
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    color: #95A472;
+    font-family: "Lobster", sans-serif;
+}
+
+
+.sub_title__label {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40%;
+    color: #DDA3B2;
+    font-family: "Lobster", sans-serif;
+}
+
+#bottom_label {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    text-align: center;
+    font-size: 25px;
+    color: #605856;
+    font-family: "Lobster", sans-serif;
+    padding: 5%;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    animation: botton infinite ease-out 3s;
+    flex-direction: row;
+}
+
+.last_button {
+    display: flex;
+    justify-content: center;
+    animation: botton2 infinite ease-out 3s;
+    flex-direction: row;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.img__buttons {
+    width: 100%;
+    height: 100%;
+}
+.content {
+    display: none;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    max-width: 80%;
+    animation: slideDown 0.5s ease;
+}
+
+.content p {
+    margin: 0;
+}
+
+.backBtn {
+    font-size: 14px;
+    background-color: transparent;
+    color: #333;
+    border: none;
+    cursor: pointer;
+}
+
+.back_text {
+    color: #95A472;
+    font-weight: bold;
+}
+
+@keyframes botton {
+    0%{transform: translateY(0);}
+    50%{transform: translateY(-50px);}
+    100%{transform: translateY(0);}
+}
+
+@keyframes botton2 {
+    0%{transform: translateY(0);}
+    50%{transform: translateY(-20px);}
+    100%{transform: translateY(0);}
+}
+
+.header__back {
+    width: 100px;
+    height: fit-content;
+    position:fixed;
+    display: flex;
+    flex-direction: row;
+    background: #F3FCF0;
+    margin-top: 30px;
+    top: 0;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.backBtn_pink {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+#topContent {
+    display: none;
+    width: 90%;
+    height: 90%;
+    margin-top: 100px;
+    flex-direction: column;
+    background: #F3FCF0;
+    border-radius: 20px;
+    overflow: auto;
+    z-index: 100;
+}
+
+.topContent__main {
+    display: flex;
+    width: auto;
+    max-width: 100%;
+    min-height: 100%;
+    align-items: center;
+    max-height: 100%;
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+    flex-direction: column;
+    text-align: justify;
+    height: auto;
+    padding: 20px;
+}
+
+.topContent__main {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    min-height: 100%;
+    flex-direction: column;
+}
+
+.label__topContent {
+    max-width: 100%;
+    height: fit-content;
+    font-size: 20px;
+    color: #ABA361;
+}
+
+.cinnamon {
+    width: 100px;
+    height: 80px;
+    margin-left: 20px;
+    background: #F3FCF0;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.importante {
+    max-width: 100%;
+    height: fit-content;
+    font-size: 20px;
+    color: #DDA3B2;
+}
+
+#bottomContent {
+    display: none;
+    width: 90%;
+    height: 90%;
+    margin-top: 100px;
+    flex-direction: column;
+    background: #F3FCF0;
+    border-radius: 20px;
+    overflow: auto;
+    z-index: 100;
+}
+
+.couple_icon {
+    width: 300px;
+    height: 240px;
+    background: #F3FCF0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px 20px 20px 20px;
+}
+
